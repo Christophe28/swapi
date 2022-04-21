@@ -8,7 +8,7 @@ const Cards = ({ data, setPeople, setPlanets }) => {
         <section
             key={element.episode_id} 
             onClick={ () => {
-                setPeople(element.characters)
+                setPeople(element.characters);
             }}>
           <h3>{element.title}</h3>
           <section className="info">
