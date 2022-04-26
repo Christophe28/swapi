@@ -1,0 +1,32 @@
+{
+    "name": "swapi",
+    "source": "./public/index.html",
+    "version": "1.0.0",
+    "homepage": "https://Christophe28.github.io/swapi",
+    "description": "",
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel",
+        "build": "parcel build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.3.2",
+        "gh-pages": "^3.2.3",
+        "parcel": "^2.3.2",
+        "process": "^0.11.10"
+    },
+    "dependencies": {
+        "@swc/helpers": "^0.3.8",
+        "axios": "^0.26.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^6.2.2",
+        "regenerator-runtime": "^0.13.9"
+    }
+}

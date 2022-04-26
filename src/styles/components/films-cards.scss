@@ -1,0 +1,36 @@
+.container-films-cards {
+    display: flex;
+    justify-content: space-around;
+
+    section {
+        height: 15rem;
+        width: 15rem;
+        border: 1px solid black;        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(10, 10, 56);
+
+        &:hover {
+            cursor: pointer;
+        }
+        h3 {
+            font-weight: 500;
+            color: rgba(231, 231, 108, 0.924);
+        }
+        .info {
+            position: absolute;
+            opacity: 0;
+            
+            &:hover {
+                opacity: 1;
+                transition: 0.3s;
+            }
+
+            p {
+                color: white;
+            }
+        }
+    }
+}
