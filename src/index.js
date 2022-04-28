@@ -5,7 +5,7 @@ import App from "./app";
 import "./styles/index.scss";
 
 ReactDOM.render(
-    <Router>
+    <Router basename="/swapi">
       <App />
     </Router>,
   document.getElementById("root")

@@ -6,7 +6,7 @@
     "description": "",
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "scripts": {
-        "predeploy": "npm run build",
+        "predeploy": "npm run build -- --public-url .",
         "deploy": "gh-pages -d dist",
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "parcel",
